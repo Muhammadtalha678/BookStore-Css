@@ -1,0 +1,57 @@
+.bestSelling {
+    padding: 3rem 0;
+}
+
+.sectionTitle {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--primary-color);
+}
+
+.bookGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.bookCard {
+    background-color: var(--white);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.bookCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.bookCard img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.bookInfo {
+    padding: 1.5rem;
+}
+
+.bookTitle {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    color: var(--primary-color);
+}
+
+.bookAuthor {
+    color: var(--text-color);
+    margin-bottom: 0.5rem;
+    font-style: italic;
+}
+
+.bookPrice {
+    font-weight: bold;
+    color: var(--accent-color);
+    font-size: 1.2rem;
+}
