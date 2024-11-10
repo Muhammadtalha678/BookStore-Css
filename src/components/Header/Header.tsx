@@ -16,9 +16,8 @@ const Header = () => {
         <div className={styles.logo}>Chromatic Reads</div>
         <ul className={`${styles.navLinks} ${isOpen ? `${styles.active}` : ''}`}>
             <li onClick={handleHamBurger}><Link href="/">Home</Link></li>
-            <li onClick={handleHamBurger}><Link href="#best-selling">Best Sellers</Link></li>
-            <li onClick={handleHamBurger}><Link href="#categories">Categories</Link></li>
             <li onClick={handleHamBurger}><Link href="/about-us">About</Link></li>
+            <li onClick={handleHamBurger}><Link href="#categories">Products</Link></li>
             <li onClick={handleHamBurger}><Link href="#contact">Contact</Link></li>
         </ul>
         <div className={`${styles.hamburger} ${isOpen ?   `${styles.active}` : ''}`} onClick={handleHamBurger}>
