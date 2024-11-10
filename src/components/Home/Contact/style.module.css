@@ -1,0 +1,66 @@
+.contactUs {
+    padding: 4rem 0;
+    background-color: var(--background-color);
+    text-align: center;
+}
+
+.contactTitle {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 2rem;
+}
+
+.contactForm {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: var(--white);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.formGroup {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.formLabel {
+    font-size: 1rem;
+    color: var(--text-color);
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.formInput, .formTextarea {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: var(--text-color);
+}
+
+.formTextarea {
+    resize: vertical;
+    height: 150px;
+}
+
+.formInput:focus, .formTextarea:focus {
+    outline: none;
+    border-color: var(--primary-color);
+}
+
+.submitBtn {
+    background-color: var(--secondary-color);
+    color: var(--white);
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submitBtn:hover {
+    background-color: var(--accent-color);
+}
