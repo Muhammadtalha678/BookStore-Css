@@ -18,7 +18,7 @@ const Header = () => {
             <li onClick={handleHamBurger}><Link href="/">Home</Link></li>
             <li onClick={handleHamBurger}><Link href="/about-us">About</Link></li>
             <li onClick={handleHamBurger}><Link href="#categories">Products</Link></li>
-            <li onClick={handleHamBurger}><Link href="#contact">Contact</Link></li>
+            <li onClick={handleHamBurger}><Link href="/contact">Contact</Link></li>
         </ul>
         <div className={`${styles.hamburger} ${isOpen ?   `${styles.active}` : ''}`} onClick={handleHamBurger}>
             <div className={`${styles.line1}`}></div>
