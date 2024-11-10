@@ -9,7 +9,7 @@ const BestSelling = () => {
     bookAuthor:string,
     price:number,
 }
-let books:Books[] = [
+const books:Books[] = [
     {
         image:"https://images.unsplash.com/photo-1544947950-fa07a98d237f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
         title:'The Midnight Library',
